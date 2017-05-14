@@ -19,6 +19,10 @@ public class GiveMysteryChestReq {
         this.reason = reason;
     }
 
+    public void setPlayerUuid(String playerUuid) {
+        this.playerUuid = playerUuid;
+    }
+
     public String getRewardCategoryId() {
         return rewardCategoryId;
     }
